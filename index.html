@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>First Site</title>
+  <link rel="stylesheet" type = "text/css" href="css/styles.css" >
+
+</head>
+<body>
+  <header>
+    <img src="images/vk.jpg" width=200 display=inline>
+    <h1>thanks for all the fish</h1>
+    <ul>
+      <li><a href="#">About me</a></li>
+      <li><a href="#">And more about me</a></li>
+    </ul>
+  </header>
+
+  <article>
+    <h2>Welcome to a website about everything and nothing</h2>
+    <p>Hope you will enjoy reading <strong>meaningless</strong> things. One thing I can promise is that I will not bore you with pictures of what I ate today.</p>
+    <button>Like</button>
+  </article>
+
+  <script>
+    $("article").hover(function() {
+       $("article").addClass('diffbg');
+    }, function() {
+        $("article").removeClass('diffbg');
+    })
+  </script>
+
+</body>
+</html>
